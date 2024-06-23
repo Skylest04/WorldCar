@@ -1,0 +1,978 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" id="theme">
+    <link rel="shortcut icon" href="img/icons/favicon.png" type="image/x-icon">
+    <title>WorldCar</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__inner">
+                    <a class="logo" href="index.html">
+                        <img src="img/icons/newlogo.png" alt="" class="logo__img">
+                    </a>
+                    <nav class="menu">
+                        <button class="menu__btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </button>
+                        <ul class="menu__list">
+                            <li class="menu__list-item"><a href="new-cars.html" class="menu__list-link menu__list-link--active">Ассортимент машин</a></li>
+                            <li class="menu__list-item--submenu"><a href="maybach.html" class="menu__list-link">MERCEDES &blacktriangledown;</a>
+                                <ul class="submenu">
+                                    <li class="submenu__inner submenu__inner-1"><a href="maybach.html" class="inner__item-link">Mercedes Maybach</a></li>
+                                    <li class="submenu__inner submenu__inner-2"><a href="amg.html" class="inner__item-link">Mercedes AMG</a></li>
+                                </ul>
+                            </li>
+                            <li class="menu__list-item"><a href="Special-offers.html" class="menu__list-link">АКЦИИ</a></li>
+                            <li class="menu__list-item"><a href="blog.html" class="menu__list-link">БЛОГ</a></li>
+                            <li class="menu__list-item"><a href="contacts.html" class="menu__list-link">Связаться с нами</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="havecars">
+                <div class="container">
+                        <div class="havecars__content">
+                            <h2 class="havecars__title">Автомобили в нашей компании</h2>
+                            <p class="havecars__text">Добро пожаловать на страницу с актуальным наличием автомобилей! Здесь вы найдете широкий выбор автомобилей различных марок, моделей и конфигураций, готовых удовлетворить самые разнообразные потребности и предпочтения.</p>
+                            <a href="contacts.html" class="havecars__link">Связаться с нами</a>
+                        </div>
+                </div>
+            </section>
+            <section class="choose">
+                <div class="container">
+                    <h2 class="section-title _anim-items _anim-hide">
+                        Выберите свой автомобиль
+                    </h2>
+                    <div class="tabs">
+                        <div class="tabs__btn">
+                            <button class="tabs__btn-item tabs__btn-item--active" data-button="content-1">Седан</button>
+                            <button class="tabs__btn-item" data-button="content-2">Траки</button>
+                            <button class="tabs__btn-item" data-button="content-3">Кроссоверы и внедорожники</button>
+                            <button class="tabs__btn-item" data-button="content-4">Электрички</button>
+                        </div>
+                        <div class="tabs__content _anim-items _anim-hide">
+                            <div class="tabs__content-item tabs__content-item--active" id="content-1">
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/toyotacrown.png" alt="" class="card__img"></div class="card__img-container">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Toyota Crown 2023</h4>
+                                        <p class="card__text">
+                                            Разгон до 100 км/ч - 5,7с <br>
+                                            Расход город - 8.1 л/100 км <br> 
+                                            Расход трасса - 7.4 л/100 км <br>
+                                            Расход смешанный - 7.8 л/100 км <br> 
+                                            Объем топливного бака - 54.9л <br>
+                                            Мощность электромотора гибридной системы - 79 л.с. <br>
+                                            Крутящий момент электромотора гибридной системы - 168 Нм Задний электромотор <br>
+                                            Напряжение электромотора гибридной системы - 230,4 </p>
+                                    </div>
+                                    <div class="cart__footer">
+                                        <p class="card__price">$ 65000</p>
+                                        <a href="https://www.toyota.com/crown/" class="card__link">подробнее</a>
+                                    </div>
+                                </div>
+                    
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/priusprime.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Prius Prime 2023</h4>
+                                            <p class="card__text">
+                                                Разгон до 100 км/ч - 6,7 с <br>
+                                                Расход город - 4.7 л/100 км <br>
+                                                Расход трасса - 5.0 л/100 км <br> 
+                                                Расход смешанный - 4.9 л/100 км <br>
+                                                Объем топливного бака - 40.1 л <br>
+                                                Показатель среднего пройденного расстояния на единицу потребляемой энергии (MPGe) - 5.4 км/кВт*ч <br>
+                                                Запас хода - 62.8 км На электротяге <br>
+                                                Суммарная ёмкость аккумулятора - 13,6 кВт*ч
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.toyota.com/priusprime/2023/" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/3.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Toyota Prius 2023</h4>
+                                            <p class="card__text"> 
+                                                Передние шины 195/50R19. <br> 
+                                                Задние шины 195/50R19.  <br>
+                                                Мощность 83 кВт <br> 
+                                                Объем 2.0 л Мощность 152 л.с. <br>
+                                                Расход 3,5 л <br>
+                                                Тип топлива Бензин Regular (АИ-92, АИ-95) <br>
+                                                Трансмиссия Вариатор Привод Передний (FF) <br>
+                                                Кол-во мест 5 мест - Кол-во дверей 5 дверей <br>
+                                                Клиренс 150 мм  <br>
+                                                Объем багажника 410 л</p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.toyota.com/prius/2023/" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/hyundaikona.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Hyundai Kona 2023</h4>
+                                            <p class="card__text">
+                                                Время разгона 0 - 100 км/ч	8.7 сек <br>
+                                                Мощность - 198 лс @ 6000 об./мин. <br>
+                                                Количество цилиндров - 4 <br>
+                                                Снаряженная масса автомобиля - 1330-1460 кг <br>
+                                                Привод - Передний привод <br>
+                                                Количество передач и тип коробки передач - 6 ступенчатая механика <br>
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.hyundai.com/worldwide/en/suv/kona-2023/ice" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+    
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/fordexlorer.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Ford Explorer 2023</h4>
+                                            <p class="card__text">
+                                                Тип двигателя: Бензиновый <br>
+                                                Количество цилиндров: 4 <br>
+                                                Объём двигателя: 3496 <br>
+                                                Мощность: 249 л.с <br>
+                                                Разгон до 100км/час: 8.0 с <br>
+                                                Длина: 5019 мм <br>
+                                                Ширина: 1988 мм <br>
+                                                Объём багажника: 595 л <br> 
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.ford.com/suvs/explorer/" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                    
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/santafe.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Santa  Fe 2023</h4>
+                                            <p class="card__text">
+                                                Рабочий объем, л 2.2  <br> 
+                                                Максимальная мощность - 197 л.с. <br>
+                                                Тип трансмиссии	- Робот (AMT8)  <br>
+                                                Количество передач - 8  <br>
+                                                Длина кузова - 4785  <br>
+                                                Ширина кузова - 1900  <br>
+                                                Разгон 0-100 км/ч, - 9.2 с.  <br>
+                                            </p> 
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.hyundai.com/worldwide/en/suv/santafe-2023/highlights" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/kianiro.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">KIA Niro 2023</h4>
+                                            <p class="card__text">
+                                                Топливо - Гибрид <br>
+                                                Коробка - Автомат <br>
+                                                Объем двигателя- 1.6 л <br>
+                                                Мощность - 141 - 204 л.с. <br>
+                                                Привод - Передний <br>
+                                                Тип кузова - Внедорожники и кроссоверы <br>
+                                                Страна - Корея 
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.kia.com/uk/new-cars/niro/" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/silverado.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Chevrolet Silverado</h4>
+                                            <p class="card__text">
+                                                Разгон до 100 км/ч - 10 с <br>
+                                                Расход город - 13 л/100 км <br>
+                                                Расход трасса - 20 л/100 км <br> 
+                                                Объем топливного бака - 80.1 л <br>
+                                                Тип кузова - Внедорожники <br>
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.chevrolet.com/trucks/silverado/1500" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+    
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/hondacrv.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Honda CR-V 2023</h4>
+                                            <p class="card__text">
+                                                Тип трансмиссии	- Вариатор <br>
+                                                Объем двигателя куб.см - 1993 <br>
+                                                Время разгона 0-100 км/ч, - 8.3 c. <br>
+                                                Масса, кг - 1680 <br>
+                                                Объем топливного бака, л - 53 <br>
+                                                Объем багажника, л - 940 (1945) <br>
+                                                Расход топлива в городском цикле, л/100 км - 5.9 <br>
+                                                Расход топлива за городом, л/100 км - 6.7 <br>
+                                                Расход топлива в смешанном цикле, л/100 км - 6,2
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://automobiles.honda.com/cr-v" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                    
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/tucson.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Hyundai Tucson</h4>
+                                            <p class="card__text">
+                                                Рабочий объем, л - 2.0 <br>
+                                                Максимальная мощность, л.с. - 185 <br>
+                                                Тип трансмиссии	- Автомат (AT8) <br>
+                                                Тип кузова - Кроссовер <br>
+                                                Максимальная масса, кг - 2290 <br>
+                                                Разгон 0-100 км/ч, c - 9.4 <br>
+                                                Город, л/100 км	- 7.7 <br>
+                                                Смешанный, л/100 км	- 6.3 <br>
+                                                Трасса, л/100 км - 5.4 <br>
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.hyundai.com/eu/models/new-tucson-plug-in-hybrid.html" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/equinox.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Chevrolet Equinox </h4>
+                                            <p class="card__text">
+                                                Рабочий объем - 1998 см³ <br>
+                                                Мощность (л/с) - 236 л. с. <br>
+                                                Мощность (кВт/при об/мин) - 110 / 5000. <br>
+                                                Трансмиссия - 9АТ <br>
+                                                Коробка передач - автомат <br>
+                                                Тип привода - 4WD. <br>
+                                                Длина кузова - 4 м 64 см <br>
+                                                Ширина кузова - 1 м 84 см
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.chevrolet.com/suvs/equinox" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/jeepwrangler.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Jeep Wrangler 2023</h4>
+                                            <p class="card__text">
+                                                Объем - 2.0 л <br>
+                                                Мощность - 381 л.с. <br>
+                                                Коробка - Автомат  <br>
+                                                Тип двигателя - гибридный <br>
+                                                Топливо - АИ-95  <br>
+                                                Привод - полный  <br>
+                                                Разгон 0-100 км/ч - 6.4 с.  <br>
+                                                Расход - 3.5 л <br>
+                                                Запас хода на электричестве - 44 км
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.jeep.com/wrangler.html" class="card__link">подробнее</a>
+                                        </div>
+                                </div> 
+
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/toyotacrown.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Toyota Crown 2023</h4>
+                                            <p class="card__text">
+                                                Разгон до 100 км/ч - 5,7с <br>
+                                                Расход город - 8.1 л/100 км <br> 
+                                                Расход трасса - 7.4 л/100 км <br>
+                                                Расход смешанный - 7.8 л/100 км <br> 
+                                                Объем топливного бака - 54.9л <br>
+                                                Мощность электромотора гибридной системы - 79 л.с. <br>
+                                                Крутящий момент электромотора гибридной системы - 168 Нм Задний электромотор <br>
+                                                Напряжение электромотора гибридной системы - 230,4 
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.toyota.com/crown/" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                    
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/priusprime.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Prius Prime 2023</h4>
+                                            <p class="card__text">
+                                                Разгон до 100 км/ч - 6,7 с <br>
+                                                Расход город - 4.7 л/100 км <br>
+                                                Расход трасса - 5.0 л/100 км <br> 
+                                                Расход смешанный - 4.9 л/100 км <br>
+                                                Объем топливного бака - 40.1 л <br>
+                                                Показатель среднего пройденного расстояния на единицу потребляемой энергии (MPGe) - 5.4 км/кВт*ч <br>
+                                                Запас хода - 62.8 км На электротяге <br>
+                                                Суммарная ёмкость аккумулятора - 13,6 кВт*ч
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.toyota.com/priusprime/2023/" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/3.png" alt="" class="card__img"></div class="card__img-container">
+                                    <div class="card__content">
+                                        <h4 class="card__title">Toyota Prius 2023</h4>
+                                        <p class="card__text">
+                                            Передние шины 195/50R19. <br> 
+                                            Задние шины 195/50R19.  <br>
+                                            Мощность 83 кВт <br> 
+                                            Объем 2.0 л Мощность 152 л.с. <br>
+                                            Расход 3,5 л <br>
+                                            Тип топлива Бензин Regular (АИ-92, АИ-95) <br>
+                                            Трансмиссия Вариатор Привод Передний (FF) <br>
+                                            Кол-во мест 5 мест - Кол-во дверей 5 дверей <br>
+                                            Клиренс 150 мм  <br>
+                                            Объем багажника 410 л
+                                        </p>
+                                    </div>
+                                    <div class="cart__footer">
+                                        <p class="card__price">$ 65000</p>
+                                        <a href="https://www.toyota.com/prius/2023/" class="card__link">подробнее</a>
+                                    </div>
+                                </div>
+                            
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/hyundaikona.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Hyundai Kona 2023</h4>
+                                            <p class="card__text">
+                                                Время разгона 0 - 100 км/ч	8.7 сек <br>
+                                                Мощность - 198 лс @ 6000 об./мин. <br>
+                                                Количество цилиндров - 4 <br>
+                                                Снаряженная масса автомобиля - 1330-1460 кг <br>
+                                                Привод - Передний привод <br>
+                                                Количество передач и тип коробки передач - 6 ступенчатая механика 
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.hyundai.com/worldwide/en/suv/kona-2023/ice" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            </div>
+    
+                            
+                            <div class="tabs__content-item" id="content-2">
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/toyotacrown.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Toyota Crown 2023</h4>
+                                            <p class="card__text">
+                                                Разгон до 100 км/ч - 5,7с <br>
+                                                Расход город - 8.1 л/100 км <br> 
+                                                Расход трасса - 7.4 л/100 км <br>
+                                                Расход смешанный - 7.8 л/100 км <br> 
+                                                Объем топливного бака - 54.9л <br>
+                                                Мощность электромотора гибридной системы - 79 л.с. <br>
+                                                Крутящий момент электромотора гибридной системы - 168 Нм Задний электромотор <br>
+                                                Напряжение электромотора гибридной системы - 230,4 
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.toyota.com/crown/" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                    
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/priusprime.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Prius Prime 2023</h4>
+                                            <p class="card__text">
+                                                Разгон до 100 км/ч - 6,7 с <br>
+                                                Расход город - 4.7 л/100 км <br>
+                                                Расход трасса - 5.0 л/100 км <br> 
+                                                Расход смешанный - 4.9 л/100 км <br>
+                                                Объем топливного бака - 40.1 л <br>
+                                                Показатель среднего пройденного расстояния на единицу потребляемой энергии (MPGe) - 5.4 км/кВт*ч <br>
+                                                Запас хода - 62.8 км На электротяге <br>
+                                                Суммарная ёмкость аккумулятора - 13,6 кВт*ч
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.toyota.com/priusprime/2023/" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/3.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Toyota Prius 2023</h4>
+                                            <p class="card__text">
+                                                Передние шины 195/50R19. <br> 
+                                                Задние шины 195/50R19.  <br>
+                                                Мощность 83 кВт <br> 
+                                                Объем 2.0 л Мощность 152 л.с. <br>
+                                                Расход 3,5 л <br>
+                                                Тип топлива Бензин Regular (АИ-92, АИ-95) <br>
+                                                Трансмиссия Вариатор Привод Передний (FF) <br>
+                                                Кол-во мест 5 мест - Кол-во дверей 5 дверей <br>
+                                                Клиренс 150 мм  <br>
+                                                Объем багажника 410 л
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.toyota.com/prius/2023/" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/hyundaikona.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Hyundai Kona 2023</h4>
+                                            <p class="card__text">
+                                                Время разгона 0 - 100 км/ч	8.7 сек <br>
+                                                Мощность - 198 лс @ 6000 об./мин. <br>
+                                                Количество цилиндров - 4 <br>
+                                                Снаряженная масса автомобиля - 1330-1460 кг <br>
+                                                Привод - Передний привод <br>
+                                                Количество передач и тип коробки передач - 6 ступенчатая механика 
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.hyundai.com/worldwide/en/suv/kona-2023/ice" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+    
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/fordexlorer.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Ford Explorer 2023</h4>
+                                            <p class="card__text">
+                                                Тип двигателя: Бензиновый <br>
+                                                Количество цилиндров: 4 <br>
+                                                Объём двигателя: 3496 <br>
+                                                Мощность: 249 л.с <br>
+                                                Разгон до 100км/час: 8.0 с <br>
+                                                Длина: 5019 мм <br>
+                                                Ширина: 1988 мм <br>
+                                                Объём багажника: 595 л <br> 
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.ford.com/suvs/explorer/" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                    
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/santafe.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Santa  Fe 2023</h4>
+                                            <p class="card__text">
+                                                Рабочий объем, л 2.2  <br> 
+                                                Максимальная мощность - 197 л.с. <br>
+                                                Тип трансмиссии	- Робот (AMT8)  <br>
+                                                Количество передач - 8  <br>
+                                                Длина кузова - 4785  <br>
+                                                Ширина кузова - 1900  <br>
+                                                Разгон 0-100 км/ч, - 9.2 с.  <br>
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.hyundai.com/worldwide/en/suv/santafe-2023/highlights" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/kianiro.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">KIA Niro 2023</h4>
+                                            <p class="card__text">
+                                                Топливо - Гибрид <br>
+                                                Коробка - Автомат <br>
+                                                Объем двигателя- 1.6 л <br>
+                                                Мощность - 141 - 204 л.с. <br>
+                                                Привод - Передний <br>
+                                                Тип кузова - Внедорожники и кроссоверы <br>
+                                                Страна - Корея 
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.kia.com/uk/new-cars/niro/" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/silverado.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">
+                                                Chevrolet Silverado        
+                                            </h4>
+                                            <p class="card__text">
+                                                Разгон до 100 км/ч - 10 с <br>
+                                                Расход город - 13 л/100 км <br>
+                                                Расход трасса - 20 л/100 км <br> 
+                                                Объем топливного бака - 80.1 л <br>
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.chevrolet.com/trucks/silverado/1500" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="tabs__content-item" id="content-3">
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/3.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Toyota Prius 2023</h4>
+                                            <p class="card__text">
+                                                Передние шины 195/50R19. <br> 
+                                                Задние шины 195/50R19.  <br>
+                                                Мощность 83 кВт <br> 
+                                                Объем 2.0 л Мощность 152 л.с. <br>
+                                                Расход 3,5 л <br>
+                                                Тип топлива Бензин Regular (АИ-92, АИ-95) <br>
+                                                Трансмиссия Вариатор Привод Передний (FF) <br>
+                                                Кол-во мест 5 мест - Кол-во дверей 5 дверей <br>
+                                                Клиренс 150 мм  <br>
+                                                Объем багажника 410 л
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.toyota.com/prius/2023/" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                    
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/toyotacrown.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Toyota Crown 2023</h4>
+                                            <p class="card__text">
+                                                Разгон до 100 км/ч - 5,7с <br>
+                                                Расход город - 8.1 л/100 км <br> 
+                                                Расход трасса - 7.4 л/100 км <br>
+                                                Расход смешанный - 7.8 л/100 км <br> 
+                                                Объем топливного бака - 54.9л <br>
+                                                Мощность электромотора гибридной системы - 79 л.с. <br>
+                                                Крутящий момент электромотора гибридной системы - 168 Нм Задний электромотор <br>
+                                                Напряжение электромотора гибридной системы - 230,4 
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.toyota.com/crown/" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/priusprime.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Prius Prime 2023</h4>
+                                            <p class="card__text">
+                                                Разгон до 100 км/ч - 6,7 с <br>
+                                                Расход город - 4.7 л/100 км <br>
+                                                Расход трасса - 5.0 л/100 км <br> 
+                                                Расход смешанный - 4.9 л/100 км <br>
+                                                Объем топливного бака - 40.1 л <br>
+                                                Показатель среднего пройденного расстояния на единицу потребляемой энергии (MPGe) - 5.4 км/кВт*ч <br>
+                                                Запас хода - 62.8 км На электротяге <br>
+                                                Суммарная ёмкость аккумулятора - 13,6 кВт*ч
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.toyota.com/priusprime/2023/" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/jeepwrangler.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Jeep Wrangler 2023</h4>
+                                            <p class="card__text">
+                                                Объем - 2.0 л <br>
+                                                Мощность - 381 л.с. <br>
+                                                Коробка - Автомат  <br>
+                                                Тип двигателя - гибридный <br>
+                                                Топливо - АИ-95  <br>
+                                                Привод - полный  <br>
+                                                Разгон 0-100 км/ч - 6.4 с.  <br>
+                                                Расход - 3.5 л <br>
+                                                Запас хода на электричестве - 44 км
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.jeep.com/wrangler.html" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+    
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/fordexlorer.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Ford Explorer 2023</h4>
+                                            <p class="card__text">
+                                                Тип двигателя: Бензиновый <br>
+                                                Количество цилиндров: 4 <br>
+                                                Объём двигателя: 3496 <br>
+                                                Мощность: 249 л.с <br>
+                                                Разгон до 100км/час: 8.0 с <br>
+                                                Длина: 5019 мм <br>
+                                                Ширина: 1988 мм <br>
+                                                Объём багажника: 595 л <br> </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.ford.com/suvs/explorer/" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                    
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/santafe.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Santa  Fe 2023</h4>
+                                            <p class="card__text">
+                                                Рабочий объем, л 2.2  <br> 
+                                                Максимальная мощность - 197 л.с. <br>
+                                                Тип трансмиссии	- Робот (AMT8)  <br>
+                                                Количество передач - 8  <br>
+                                                Длина кузова - 4785  <br>
+                                                Ширина кузова - 1900  <br>
+                                                Разгон 0-100 км/ч, - 9.2 с.  <br>
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.hyundai.com/worldwide/en/suv/santafe-2023/highlights" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/kianiro.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">KIA Niro 2023</h4>
+                                            <p class="card__text">
+                                                Топливо - Гибрид <br>
+                                                Коробка - Автомат <br>
+                                                Объем двигателя- 1.6 л <br>
+                                                Мощность - 141 - 204 л.с. <br>
+                                                Привод - Передний <br>
+                                                Тип кузова - Внедорожники и кроссоверы <br>
+                                                Страна - Корея 
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.kia.com/uk/new-cars/niro/" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/silverado.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Chevrolet Silverado</h4>
+                                            <p class="card__text">
+                                                Разгон до 100 км/ч - 10 с <br>
+                                                Расход город - 13 л/100 км <br>
+                                                Расход трасса - 20 л/100 км <br> 
+                                                Объем топливного бака - 80.1 л <br>
+                                                Тип кузова - Внедорожники <br>
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.chevrolet.com/trucks/silverado/1500" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+    
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/hondacrv.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Honda CR-V 2023</h4>
+                                            <p class="card__text">
+                                                Тип трансмиссии	- Вариатор <br>
+                                                Объем двигателя куб.см - 1993 <br>
+                                                Время разгона 0-100 км/ч, - 8.3 c. <br>
+                                                Масса, кг - 1680 <br>
+                                                Объем топливного бака, л - 53 <br>
+                                                Объем багажника, л - 940 (1945) <br>
+                                                Расход топлива в городском цикле, л/100 км - 5.9 <br>
+                                                Расход топлива за городом, л/100 км - 6.7 <br>
+                                                Расход топлива в смешанном цикле, л/100 км - 6,2
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://automobiles.honda.com/cr-v" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                    
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/tucson.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Hyundai Tucson</h4>
+                                            <p class="card__text">
+                                                Рабочий объем, л - 2.0 <br>
+                                                Максимальная мощность, л.с. - 185 <br>
+                                                Тип трансмиссии	- Автомат (AT8) <br>
+                                                Тип кузова - Кроссовер <br>
+                                                Максимальная масса, кг - 2290 <br>
+                                                Разгон 0-100 км/ч, c - 9.4 <br>
+                                                Город, л/100 км	- 7.7 <br>
+                                                Смешанный, л/100 км	- 6.3 <br>
+                                                Трасса, л/100 км - 5.4 <br>
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.hyundai.com/eu/models/new-tucson-plug-in-hybrid.html" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/equinox.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Chevrolet Equinox </h4>
+                                            <p class="card__text">
+                                                Рабочий объем - 1998 см³ <br>
+                                                Мощность (л/с) - 236 л. с. <br>
+                                                Мощность (кВт/при об/мин) - 110 / 5000. <br>
+                                                Трансмиссия - 9АТ <br>
+                                                Коробка передач - автомат <br>
+                                                Тип привода - 4WD. <br>
+                                                Длина кузова - 4 м 64 см <br>
+                                                Ширина кузова - 1 м 84 см
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.chevrolet.com/suvs/equinox" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/hyundaikona.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Hyundai Kona 2023</h4>
+                                            <p class="card__text">
+                                                Время разгона 0 - 100 км/ч	8.7 сек <br>
+                                                Мощность - 198 лс @ 6000 об./мин. <br>
+                                                Количество цилиндров - 4 <br>
+                                                Снаряженная масса автомобиля - 1330-1460 кг <br>
+                                                Привод - Передний привод <br>
+                                                Количество передач и тип коробки передач - 6 ступенчатая механика 
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.hyundai.com/worldwide/en/suv/kona-2023/ice" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            </div>
+                            <div class="tabs__content-item" id="content-4">
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/kianiro.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">KIA Niro 2023</h4>
+                                            <p class="card__text">
+                                                Топливо - Гибрид <br>
+                                                Коробка - Автомат <br>
+                                                Объем двигателя- 1.6 л <br>
+                                                Мощность - 141 - 204 л.с. <br>
+                                                Привод - Передний <br>
+                                                Тип кузова - Внедорожники и кроссоверы <br>
+                                                Страна - Корея 
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.kia.com/uk/new-cars/niro/" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/silverado.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Chevrolet Silverado</h4>
+                                            <p class="card__text">
+                                                Разгон до 100 км/ч - 10 с <br>
+                                                Расход город - 13 л/100 км <br>
+                                                Расход трасса - 20 л/100 км <br> 
+                                                Объем топливного бака - 80.1 л <br>
+                                                Тип кузова - Внедорожники <br>
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.chevrolet.com/trucks/silverado/1500" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+    
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/hondacrv.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Honda CR-V 2023</h4>
+                                            <p class="card__text">
+                                                Тип трансмиссии	- Вариатор <br>
+                                                Объем двигателя куб.см - 1993 <br>
+                                                Время разгона 0-100 км/ч, - 8.3 c. <br>
+                                                Масса, кг - 1680 <br>
+                                                Объем топливного бака, л - 53 <br>
+                                                Объем багажника, л - 940 (1945) <br>
+                                                Расход топлива в городском цикле, л/100 км - 5.9 <br>
+                                                Расход топлива за городом, л/100 км - 6.7 <br>
+                                                Расход топлива в смешанном цикле, л/100 км - 6,2
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://automobiles.honda.com/cr-v" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                    
+                                <div class="card">
+                                    <div class="card__img-container"><img src="img/tucson.png" alt="" class="card__img"></div class="card__img-container">
+                                        <div class="card__content">
+                                            <h4 class="card__title">Hyundai Tucson</h4>
+                                            <p class="card__text">
+                                                Рабочий объем, л - 2.0 <br>
+                                                Максимальная мощность, л.с. - 185 <br>
+                                                Тип трансмиссии	- Автомат (AT8) <br>
+                                                Тип кузова - Кроссовер <br>
+                                                Максимподробнееа, кг - 2290 <br>
+                                                Разгон 0-100 км/ч, c - 9.4 <br>
+                                                Город, л/100 км	- 7.7 <br>
+                                                Смешанный, л/100 км	- 6.3 <br>
+                                                Трасса, л/100 км - 5.4 <br>
+                                            </p>
+                                        </div>
+                                        <div class="cart__footer">
+                                            <p class="card__price">$ 65000</p>
+                                            <a href="https://www.hyundai.com/eu/models/new-tucson-plug-in-hybrid.html" class="card__link">подробнее</a>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="showmore-link">SHOW MORE</a>
+                </div>
+            </section>
+            
+            <section class="blog">
+                <div class="container">
+                    <div class="blog__items _anim-items _anim-hide">
+                        <div class="blog__item">
+                            <img src="img/underinfo1.png" alt="" class="blog__item-img">
+                            <h4 class="blog__item-title">Простой способ купить следующий автомобиль</h4>
+                            <a target="_blank" href="https://www.zr.ru/content/articles/785815-tri-sposoba-kupit-mashinu-vybiraem-samyj-vygodnyj/" class="blog__item-link">перейти</a>
+                        </div>
+                        <div class="blog__item">
+                            <img src="img/underinfo2.png" alt="" class="blog__item-img">
+                            <h4 class="blog__item-title">Руководство по путешествиям с домашними животными</h4>
+                            <a target="_blank" href="https://www.profee.com/ru/articles/pet-plane-complete-guide" class="blog__item-link">перейти</a>
+                        </div>
+                    </div>
+                    <a href="blog.html" class="showmore-link _anim-items _anim-hide">SHOW MORE</a>
+                </div>
+            </section>
+
+        
+        </main>
+
+        <footer class="footer">
+            <div class="container">
+                <nav class="footer__menu">
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item"><a href="new-cars.html" class="footer__menu-title footer__menu-title--active">Ассортимент машин</a></li>
+                    </ul>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item"><a href="maybach.html" class="footer__menu-title">MERCEDES</a></li>
+                    </ul>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item"><a href="Special-offers.html" class="footer__menu-title">АКЦИИ</a></li>
+                    </ul>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item"><a href="blog.html" class="footer__menu-title">БЛОГ</a></li>
+                    </ul>
+                    <ul class="footer__menu-list">
+                        <li class="footer__menu-item"><a href="contacts.html" class="footer__menu-title">Связаться с нами</a></li>
+                    </ul>
+                </nav>
+                <ul class="app">
+                    <li class="app__item">
+                        <a target="_blank" href="https://www.apple.com/app-store/" class="app__item-link">
+                            <img class="app__item-img" src="img/icons/appstore.svg" alt="">
+                        </a>
+                    </li>
+                    <li class="app__item">
+                        <a target="_blank" href="https://play.google.com/store/apps?hl=ru&gl=US" class="app__item-link">
+                            <img class="app__item-img" src="img/icons/googleplay.svg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer__copy">
+                    <p class="footer__copy-text">
+                        For questions about the TrueCar Auto Buying Service please call 1-888-878-3227.
+                        Certified Dealers are contractually obligated by TrueCar to meet certain customer service requirements and complete the TrueCar Dealer Certification Program.
+                    </p>
+                    <p class="footer__copy-text">
+                        Car does not broker, sell, or lease motor vehicles. Unless otherwise noted, all vehicles shown on this website are offered for sale by licensed motor vehicle dealers. All vehicles are subject to prior sale. By accessing this website, you agree to the TrueCar Terms of Service and Privacy Policy.
+                    </p>
+                </div>
+                <nav class="copy__nav">
+                    <ul class="copy__nav-list">
+                        <li class="copy__nav-item"><a href="#" class="copy__nav-link">Terms of Service</a></li>
+                        <li class="copy__nav-item"><a href="#" class="copy__nav-link">Privacy Policy</a></li>
+                        <li class="copy__nav-item"><a href="#" class="copy__nav-link">Do Not Sell My Personal Information</a></li>
+                    </ul>
+                </nav>
+                <div class="maker"><span>Сделал студент группы 9-4-ВТП-20, Садханов Руслан</span></div>
+            </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
